@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#211630">
+  <meta name="description" content="Vivi il Carnevale di Capua con il gruppo Giulio Cesare Falco: arte, creatività e nuove amicizie. Scopri il progetto e partecipa.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:title" content="Vivi il Carnevale di Capua · Giulio Cesare Falco">
+  <meta property="og:description" content="Un progetto fatto di arte, creatività e persone. Entra nel gruppo Giulio Cesare Falco e vivi il Carnevale di Capua da protagonista.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80">
+  <title>Carnevale di Capua · Gruppo Giulio Cesare Falco</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-config.js"></script>
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenuto">Salta al contenuto</a>
+  <header class="site-header" id="inizio">
+    <nav class="navbar wrap" aria-label="Navigazione principale">
+      <a class="brand" href="#inizio" aria-label="Giulio Cesare Falco, torna all'inizio">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M20 4 36 13v14L20 36 4 27V13L20 4Z"/><path d="m12 24 8-14 8 14M15 20h10"/></svg></span>
+        <span class="brand-name">GIULIO CESARE <b>FALCO</b></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Apri il menu">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#carnevale">Il Carnevale</a>
+        <a href="#gruppo">Il gruppo</a>
+        <a href="#arte">Il tema</a>
+        <a href="#catalogo">Catalogo</a>
+        <a href="#partecipare">Come partecipare</a>
+        <a class="nav-cta" href="#contatti">Unisciti a noi <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenuto">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-inner wrap">
+        <div class="hero-copy">
+          <p class="eyebrow light"><span class="eyebrow-line"></span> CAPUA · UNA CITTÀ IN FESTA</p>
+          <h1 id="hero-title">Il Carnevale<br>si vive <span>insieme.</span></h1>
+          <p class="hero-lede">Vivi il Carnevale di Capua con il gruppo <strong>Giulio Cesare Falco</strong>: un progetto collettivo dove arte, idee e voglia di stare insieme prendono forma.</p>
+          <div class="hero-actions">
+            <a class="button button-orange" href="#contatti">Voglio partecipare <span aria-hidden="true">↗</span></a>
+            <a class="text-link light-link" href="#gruppo">Scopri il gruppo <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-note"><span class="note-dot"></span> Un’esperienza creativa, aperta a nuovi volti</div>
+        </div>
+        <div class="hero-art" aria-label="Illustrazione di una maschera artistica del Carnevale" role="img">
+          <div class="art-sun"></div><div class="art-ring ring-one"></div><div class="art-ring ring-two"></div>
+          <div class="art-card"><span class="art-caption">L’ARTE<br>PRENDE<br>STRADA</span><span class="art-index">01 / 04</span></div>
+          <svg class="hero-mask" viewBox="0 0 360 250" aria-hidden="true">
+            <defs><linearGradient id="maskFill" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f0a73d"/><stop offset="1" stop-color="#e45d48"/></linearGradient></defs>
+            <path d="M26 64Q83 9 164 47Q247 8 334 63L306 150Q275 202 219 172L180 145L141 173Q84 205 53 151Z" fill="url(#maskFill)" stroke="#ffedce" stroke-width="5" stroke-linejoin="round"/>
+            <path d="M55 82Q103 48 151 81Q137 116 105 120Q73 117 55 82ZM207 81Q256 47 306 82Q288 117 256 120Q224 116 207 81Z" fill="#211630" stroke="#ffedce" stroke-width="4"/>
+            <path d="M160 52Q181 31 200 51L184 116Z" fill="#f4cf7a"/><path d="m45 61-19-30 39 12m251 19 20-31-42 13" fill="#5da7c2" stroke="#ffedce" stroke-width="4" stroke-linejoin="round"/>
+            <circle cx="86" cy="156" r="7" fill="#f4cf7a"/><circle cx="270" cy="154" r="8" fill="#f4cf7a"/><path d="m110 176 17 20m126-20-17 20" stroke="#ffedce" stroke-width="5" stroke-linecap="round"/>
+          </svg>
+          <span class="art-sticker sticker-one">CREA<br>INSIEME</span><span class="art-sticker sticker-two">★</span>
+          <span class="floating-confetti confetti-a"></span><span class="floating-confetti confetti-b"></span><span class="floating-confetti confetti-c"></span>
+          <span class="art-bottom">CARNEVALE DI CAPUA <span>·</span> FATTO DI PERSONE</span>
+        </div>
+      </div>
+      <a href="#carnevale" class="scroll-cue" aria-label="Scorri alla sezione sul Carnevale"><span></span> SCOPRI IL PROGETTO</a>
+    </section>
+
+    <section class="intro section-pad" id="carnevale" aria-labelledby="intro-title">
+      <div class="wrap intro-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> UNA TRADIZIONE CHE SI RINNOVA</p>
+          <h2 id="intro-title">La città diventa<br><span>il nostro palcoscenico.</span></h2>
+        </div>
+        <div class="intro-body reveal">
+          <p>Il Carnevale di Capua è una festa che attraversa le strade e coinvolge tutta la città. È un’occasione per incontrarsi, immaginare e costruire qualcosa insieme.</p>
+          <p>Partecipare significa passare dall’essere spettatori a dare il proprio contributo: con idee, energia e creatività.</p>
+          <a class="text-link" href="#gruppo">Ecco come lo facciamo <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="wrap gallery-grid reveal" aria-label="Foto dal profilo Instagram ufficiale del Giulio Cesare Falco">
+        <article class="instagram-post"><iframe src="https://www.instagram.com/p/DU3uBX9ggmY/embed/" title="Post Instagram del Carnevale di Capua, 17 febbraio 2026" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></article>
+        <article class="instagram-post"><iframe src="https://www.instagram.com/p/DU0beJqgg9h/embed/" title="Post Instagram della sfilata di Carnevale, 16 febbraio 2026" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></article>
+        <article class="instagram-post"><iframe src="https://www.instagram.com/p/DUs6eIoAqvf/embed/" title="Post Instagram del Carnevale di Capua in notturna, 13 febbraio 2026" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></article>
+        <p class="gallery-disclaimer">Foto del Carnevale incorporate dal <a href="https://www.instagram.com/it_g.c.falco/" target="_blank" rel="noopener noreferrer">profilo Instagram ufficiale</a>. Instagram può raccogliere dati di navigazione.</p>
+      </div>
+    </section>
+
+    <section class="group-section section-pad" id="gruppo" aria-labelledby="group-title">
+      <div class="wrap group-layout">
+        <div class="group-visual reveal">
+          <div class="group-image"><iframe src="https://www.instagram.com/p/DU0beJqgg9h/embed/" title="Post Instagram della sfilata di Carnevale del Giulio Cesare Falco, 16 febbraio 2026" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+          <div class="quote-card"><span aria-hidden="true">“</span><p>Ognuno porta qualcosa. Insieme, creiamo molto di più.</p></div>
+          <span class="visual-number" aria-hidden="true">GCF<br>· 26</span>
+        </div>
+        <div class="group-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> IL GRUPPO GIULIO CESARE FALCO</p>
+          <h2 id="group-title">Un progetto<br>da fare <span>insieme.</span></h2>
+          <p>Il gruppo Giulio Cesare Falco partecipa al Carnevale di Capua trasformando un’idea condivisa in una presenza viva e creativa.</p>
+          <p>Farne parte vuol dire collaborare al tema, prendere parte alle attività artistiche, preparare il costume e vivere la festa fianco a fianco. Non serve arrivare con tutto già pronto: curiosità e voglia di mettersi in gioco sono un ottimo inizio.</p>
+          <ul class="check-list"><li><span>01</span> Lavorare a un progetto creativo</li><li><span>02</span> Imparare facendo, ognuno a modo suo</li><li><span>03</span> Incontrare persone e fare squadra</li></ul>
+          <a class="text-link" href="#contatti">Conosci il gruppo <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="art-section section-pad" id="arte" aria-labelledby="art-title">
+      <div class="wrap">
+        <div class="art-heading reveal"><div><p class="eyebrow light"><span class="eyebrow-line"></span> IL TEMA DEL GRUPPO</p><h2 id="art-title">L’arte non sta<br>in una <span>cornice.</span></h2></div><p>Quest’anno il filo conduttore è l’arte: un universo di linguaggi, gesti e visioni. E ogni persona può aggiungerci il proprio segno.</p></div>
+        <div class="art-grid reveal">
+          <article class="art-tile tile-paint"><span class="tile-number">01</span><span class="tile-icon" aria-hidden="true">✳</span><h3>Pittura</h3><p>Colore, forme, immaginazione.</p></article>
+          <article class="art-tile tile-sculpt"><span class="tile-number">02</span><span class="tile-icon" aria-hidden="true">◉</span><h3>Scultura</h3><p>Idee che prendono volume.</p></article>
+          <article class="art-tile tile-music"><span class="tile-number">03</span><span class="tile-icon" aria-hidden="true">♫</span><h3>Musica</h3><p>Un ritmo che mette in moto.</p></article>
+          <article class="art-tile tile-theatre"><span class="tile-number">04</span><span class="tile-icon" aria-hidden="true">◡</span><h3>Teatro</h3><p>Storie, ruoli, nuove prospettive.</p></article>
+          <article class="art-tile tile-photo"><span class="tile-number">05</span><span class="tile-icon" aria-hidden="true">▣</span><h3>Fotografia</h3><p>Attimi da guardare di nuovo.</p></article>
+          <article class="art-tile tile-ideas"><span class="tile-number">06</span><span class="tile-icon" aria-hidden="true">✦</span><h3>E tu?</h3><p>Qui c’è spazio per la tua idea.</p></article>
+        </div>
+        <div class="art-foot"><span>NESSUNA IDEA È TROPPO PICCOLA.</span><span>LA CREATIVITÀ È UN LAVORO DI SQUADRA ↗</span></div>
+      </div>
+    </section>
+
+    <section class="cost-section section-pad" id="catalogo" aria-labelledby="cost-title">
+      <div class="wrap cost-card reveal">
+        <div class="cost-copy"><p class="eyebrow"><span class="eyebrow-line"></span> UN DETTAGLIO PRATICO</p><h2 id="cost-title">Il costume, il tuo<br><span>pass per la festa.</span></h2><p>Per partecipare è previsto un costume completo. Ecco il costo indicativo comunicato per il gruppo.</p><p class="cost-caveat">Prezzo e dettagli organizzativi sono da verificare con gli organizzatori prima della pubblicazione definitiva.</p></div>
+        <div class="cost-visual"><div class="cost-orbit" aria-hidden="true">GCF · CARNEVALE · GCF ·</div><div class="cost-price"><span>COSTUME COMPLETO</span><strong>30<sup>€</sup></strong><small>costo indicativo</small></div><span class="cost-spark spark-one" aria-hidden="true">✳</span><span class="cost-spark spark-two" aria-hidden="true">✦</span></div>
+      </div>
+    </section>
+
+    <section class="experience-section section-pad" aria-labelledby="experience-title">
+      <div class="wrap experience-layout">
+        <div class="experience-title reveal"><p class="eyebrow"><span class="eyebrow-line"></span> PIÙ DI UNA SFILATA</p><h2 id="experience-title">Una cosa bella<br>da <span>ricordare.</span></h2><p>Non serve saper fare tutto. Basta esserci, provare e scoprire cosa succede quando ognuno mette in campo qualcosa di suo.</p></div>
+        <div class="experience-list reveal">
+          <div class="experience-item"><span class="experience-icon">✳</span><div><h3>Esprimiti</h3><p>Trova il tuo modo di contribuire a un progetto artistico.</p></div><span class="item-index">01</span></div>
+          <div class="experience-item"><span class="experience-icon">↗</span><div><h3>Fai squadra</h3><p>Conosci altri ragazzi e condividi il percorso, non solo il giorno della festa.</p></div><span class="item-index">02</span></div>
+          <div class="experience-item"><span class="experience-icon">⌂</span><div><h3>Vivi Capua</h3><p>Partecipa a un evento del territorio e contribuisci a uno spettacolo collettivo.</p></div><span class="item-index">03</span></div>
+          <div class="experience-item"><span class="experience-icon">♡</span><div><h3>Porta a casa ricordi</h3><p>Le esperienze condivise possono diventare storie da raccontare.</p></div><span class="item-index">04</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="credits-section" aria-labelledby="credits-title"><div class="wrap credits-card reveal"><div class="credits-icon" aria-hidden="true">✳</div><div><p class="eyebrow light">UNA NOTA PER STUDENTI E FAMIGLIE</p><h2 id="credits-title">Crediti scolastici</h2><p>La partecipazione può essere riconosciuta come attività valida ai fini dei crediti scolastici secondo le modalità stabilite dalla propria scuola. Verifica sempre con la segreteria o con i docenti.</p></div><span class="credits-stamp">INFORMATI<br>BENE</span></div></section>
+
+    <section class="steps-section section-pad" id="partecipare" aria-labelledby="steps-title">
+      <div class="wrap"><div class="section-heading centered reveal"><p class="eyebrow"><span class="eyebrow-line"></span> SI COMINCIA DA QUI <span class="eyebrow-line"></span></p><h2 id="steps-title">Quattro passi.<br><span>Tante possibilità.</span></h2></div>
+        <ol class="steps-grid reveal"><li><span class="step-num">01</span><span class="step-icon">◉</span><h3>Scopri il progetto</h3><p>Leggi, guarda, fai tutte le domande che vuoi.</p></li><li><span class="step-num">02</span><span class="step-icon">↗</span><h3>Contatta il gruppo</h3><p>Raccontaci chi sei e cosa ti incuriosisce.</p></li><li><span class="step-num">03</span><span class="step-icon">✳</span><h3>Iscriviti e scegli</h3><p>Confrontati con gli organizzatori sul costume e i dettagli.</p></li><li><span class="step-num">04</span><span class="step-icon">★</span><h3>Vivi il Carnevale</h3><p>Partecipa alle attività e alla manifestazione.</p></li></ol>
+      </div>
+    </section>
+
+    <section class="contact-section section-pad" id="contatti" aria-labelledby="contact-title">
+      <div class="wrap contact-layout">
+        <div class="contact-copy reveal"><p class="eyebrow light"><span class="eyebrow-line"></span> LA PROSSIMA IDEA PUÒ ESSERE LA TUA</p><h2 id="contact-title">Entra nel<br><span>gruppo.</span></h2><p>Compila il modulo con nome, cognome e classe per inviare la tua iscrizione.</p><div class="contact-note"><span aria-hidden="true">✳</span> Raccogliamo solo i dati necessari per l’iscrizione.</div></div>
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="form-heading"><h3>Iscrizione al gruppo</h3><p>I campi con <span aria-hidden="true">*</span> sono obbligatori.</p></div>
+          <div class="field"><label for="name">Nome <span>*</span></label><input id="name" name="name" type="text" autocomplete="given-name" placeholder="Il tuo nome" required maxlength="80" aria-describedby="name-error"><small class="field-error" id="name-error"></small></div>
+          <div class="field"><label for="surname">Cognome <span>*</span></label><input id="surname" name="surname" type="text" autocomplete="family-name" placeholder="Il tuo cognome" required maxlength="80" aria-describedby="surname-error"><small class="field-error" id="surname-error"></small></div>
+          <div class="field"><label for="class-name">Classe <span>*</span></label><input id="class-name" name="className" type="text" placeholder="Es. 3B" required maxlength="20" aria-describedby="class-error"><small class="field-error" id="class-error"></small></div>
+          <button class="button button-orange submit-button" type="submit">Invia iscrizione <span aria-hidden="true">↗</span></button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          <p class="form-disclaimer">I dati saranno visibili agli organizzatori e usati per gestire l’iscrizione; una notifica con nome, cognome e classe sarà inviata al gruppo Telegram degli organizzatori. Prima di raccogliere dati reali, pubblica l’informativa privacy ufficiale.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="admin-section section-pad" id="gestione" aria-labelledby="admin-title" hidden>
+      <div class="wrap admin-layout">
+        <div class="admin-intro">
+          <p class="eyebrow"><span class="eyebrow-line"></span> SOLO PER ORGANIZZATORI</p>
+          <h2 id="admin-title">Le nuove<br><span>iscrizioni.</span></h2>
+          <p>Consulta le iscrizioni inviate dal modulo nella tabella visuale di Supabase. I dati raccolti sono nome, cognome e classe.</p>
+        </div>
+        <div class="admin-panel">
+          <h3>Gestione semplice, dal pannello online</h3>
+          <p>Apri il progetto Supabase, entra in <strong>Table Editor</strong> e seleziona la tabella <strong>registrations</strong> per gestire le iscrizioni (nome, cognome e classe). Il database invia una notifica Telegram agli organizzatori a ogni nuova iscrizione. L’inserimento pubblico è limitato alle nuove registrazioni tramite policy RLS: non attivare la lettura pubblica dei dati.</p>
+          <p class="local-warning">I dati personali degli iscritti sono visibili agli organizzatori. Usa il pannello solo con l’account organizzatore e pubblica l’informativa privacy prima di aprire le iscrizioni.</p>
+          <a class="button button-orange" href="https://supabase.com/dashboard/projects" target="_blank" rel="noopener noreferrer">Apri il pannello organizzatori <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="wrap footer-main"><a class="brand footer-brand" href="#inizio"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M20 4 36 13v14L20 36 4 27V13L20 4Z"/><path d="m12 24 8-14 8 14M15 20h10"/></svg></span><span class="brand-name">GIULIO CESARE <b>FALCO</b></span></a><p>Una città, un’idea, tante persone.<br>Ci vediamo al Carnevale di Capua.</p><a class="footer-top" href="#inizio">TORNA SU ↑</a></div><div class="wrap footer-bottom"><span>© <span id="year">2026</span> Gruppo Giulio Cesare Falco · Carnevale di Capua</span><a href="?admin=1#gestione">Area organizzatori</a><span>Progetto da vivere, insieme.</span></div></footer>
+</body>
+</html>
